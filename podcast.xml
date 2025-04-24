@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Мой подкаст</title>
+    <link>https://ваш-сайт.ру</link>
+    <description>Описание подкаста</description>
+    
+    <!-- Эпизод 1 -->
+    <item>
+      <title>Название выпуска 1</title>
+      <enclosure 
+        url="https://archive.org/.../episode1.mp3" 
+        length="12345678" 
+        type="audio/mpeg"
+      />
+      <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+    
+    <!-- Эпизод 2 -->
+    <item>
+      <title>Название выпуска 2</title>
+      <enclosure 
+        url="https://archive.org/.../episode2.mp3" 
+        length="87654321" 
+        type="audio/mpeg"
+      />
+      <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
