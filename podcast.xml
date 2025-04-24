@@ -2,25 +2,23 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Мой подкаст</title>
-    <link>https://https://github.com/RasT8/my-podcast/</link> 
+    <link>https://github.com/RasT8/my-podcast</link>
     <description>Лучший подкаст на свете</description>
     <language>ru</language>
     <itunes:author>RasT8</itunes:author>
     <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
     
-    <!-- Используем временную обложку (можно заменить) -->
     <itunes:image href="https://via.placeholder.com/1400x1400.png?text=Podcast+Cover"/>
     
-    <!-- 3 обязательные категории -->
     <itunes:category text="Образование"/>
     <itunes:category text="Досуг"/>
     <itunes:category text="Технологии"/>
     
-    <!-- Эпизод 1 -->
     <item>
       <title>Первый выпуск</title>
       <enclosure 
-        url="https://archive.org/details/20250424_20250424_1401" 
+        url="https://archive.org/download/20250424_20250424_1401/episode1.mp3" 
         length="12345678" 
         type="audio/mpeg"
       />
@@ -30,11 +28,10 @@
       <itunes:duration>30:00</itunes:duration>
     </item>
     
-    <!-- Эпизод 2 -->
     <item>
       <title>Второй выпуск</title>
       <enclosure 
-        url="......" 
+        url="https://archive.org/download/your-collection/episode2.mp3" 
         length="87654321" 
         type="audio/mpeg"
       />
