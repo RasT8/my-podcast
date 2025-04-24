@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Мой подкаст</title>
     <link>https://ваш-сайт.ру</link>
     <description>Описание подкаста</description>
+    <language>ru</language>
+    <itunes:author>Имя автора</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://ваш-сайт.ру/podcast-cover.jpg"/>
+    
+    <!-- Обязательные категории (ровно 3) -->
+    <itunes:category text="Образование"/>
+    <itunes:category text="Технологии"/>
+    <itunes:category text="Общество"/>
     
     <!-- Эпизод 1 -->
     <item>
@@ -13,7 +23,11 @@
         length="12345678" 
         type="audio/mpeg"
       />
+      <guid isPermaLink="false">episode1</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+      <description>Описание первого выпуска</description>
+      <itunes:duration>00:30:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
     </item>
     
     <!-- Эпизод 2 -->
@@ -24,7 +38,11 @@
         length="87654321" 
         type="audio/mpeg"
       />
+      <guid isPermaLink="false">episode2</guid>
       <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+      <description>Описание второго выпуска</description>
+      <itunes:duration>00:25:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
 </rss>
